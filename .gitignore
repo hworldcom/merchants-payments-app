@@ -1,0 +1,65 @@
+# Dependencies and local package-manager state
+node_modules/
+.pnpm-store/
+.npm/
+
+# Framework and build output
+.next/
+out/
+dist/
+web-build/
+.turbo/
+.vercel/
+
+# Expo local state and generated types
+.expo/
+.expo-shared/
+expo-env.d.ts
+
+# Tests, reports, and caches
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+.vitest/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Signing files and credentials
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Supabase local state
+supabase/.branches/
+supabase/.temp/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary and packaged output
+*.orig
+*.tgz
